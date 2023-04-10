@@ -9,10 +9,27 @@ The average is 50.5
 public class tinhtong {
 
 	public static void main(String[] args) {
-		int sum =0; 
-		float avegare = 0;
 		
-		for( int i=1; i <= 10;i++ ) {
+		tinhtong tinhtong1 = new tinhtong();
+		tinhtong1.sumAndAverage();
+//		int sum =0; 
+//		float avegare = 0;
+//		
+//		for( int i=1; i <= 10;i++ ) {
+//			sum = sum + i;
+//		}
+//		System.out.println("Tổng là : " + sum);
+//		
+//		
+//		avegare = sum/100;
+//		System.out.println("Tổng trung bình là : " + avegare);
+		
+	}
+
+	public static void sumAndAverage() {
+		int sum =0; 
+		int avegare = 0;
+		for( int i=1; i <= 100;i++ ) {
 			sum = sum + i;
 		}
 		System.out.println("Tổng là : " + sum);
@@ -20,14 +37,5 @@ public class tinhtong {
 		
 		avegare = sum/100;
 		System.out.println("Tổng trung bình là : " + avegare);
-		
 	}
-
-//	public static void sumAndAverage() {
-//		int sum =0; 
-//		int avegare = 0;
-//		for( int i=1; i <= 100;i++ ) {
-//			sum = sum + i;
-//		}
-//	}
 }

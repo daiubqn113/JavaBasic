@@ -14,9 +14,16 @@ package day3;
 
  */
 public class array_bai1 {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+	}
+	public static void main(String[] args) {
+		
+		int numStudents;
+		array_bai1 scan = new array_bai1(System.in);
+		int n = scan.nextInt();//nhập kiểu int
+		string n = scan.nextLine();//nhập kiểu string
+		int grades[] = new int[numStudents];
 
 	}
 
